@@ -1,5 +1,3 @@
-from typing import Any
-
 
 def number_words(inputx):
 
