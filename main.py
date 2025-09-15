@@ -12,16 +12,11 @@ def get_book_text(inputx):
 
 
 def main():
-    #print(get_book_text("books/frankenstein.txt"))
-    #print(f"{number_words("books/frankenstein.txt")} words found in the document")
     sorted_chars = sort_func(count_characters(inputx))
-    #print(count_characters("books/frankenstein.txt"))
     print("============ BOOKBOT ============")
     print("Analyzing book found at books/frankenstein.txt...")
     print("----------- Word Count ----------")
-    #print(f"Found {number_words(f"{}")} total words")
     for i in sorted_chars:
         print(f"{i["char"]}: {i['num']}")
-    #print(sort_func(count_characters(f"{inputx}")))
     print("============= END ===============")
 main()
